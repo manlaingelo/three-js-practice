@@ -27,6 +27,7 @@ export default {
 #appScene {
   height: 100% !important;
   left: 0;
+  margin-top: 150px;
   pointer-events: none;
   // pointer-events: none;
   position: fixed;

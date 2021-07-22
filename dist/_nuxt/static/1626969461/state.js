@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1626969461",layout:"default",error:null,state:{loading:{toLoad:b,loaded:b},scroll:{initialPosition:{x:a,y:a},position:{x:a,y:a},progress:{x:a,y:a},velocity:{x:a,y:a}},ui:{glIndex:"below"}},serverRendered:true,routePath:"\u002F",config:{}}}(0,void 0));

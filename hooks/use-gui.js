@@ -23,6 +23,9 @@ const useGUI = () => {
 
     // postprocessing
     gui.postprocessing = gui.addFolder('Post-processing')
+
+    // hide controls
+    dat.GUI.toggleHide()
   }
 
   return gui

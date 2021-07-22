@@ -24,8 +24,8 @@ export default {
   },
   manifest: {
     orientation: 'portrait-primary',
-    name: 'nuxt-three',
-    short_name: 'nuxt-three',
+    name: 'Half year',
+    short_name: 'Half year',
     display: 'standalone',
     background_color: '#000000',
     theme_color: '#000000',

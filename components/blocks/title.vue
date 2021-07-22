@@ -1,6 +1,13 @@
 <template>
   <div class="appTitle">
-    <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">nuxt-three</h1>
+    <!-- <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">Happy half year</h1> -->
+    <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">
+      July 30
+      <!-- <img
+        src=""
+        alt="heart threejs"
+      /> -->
+    </h1>
   </div>
 </template>
 
@@ -116,6 +123,11 @@ export default {
 <style lang="scss">
 .appTitle {
   align-items: center;
+  // background-image: url('https://monophy.com/media/eJcat3soqbBWwpZvsL/monophy.gif');
+  background-image: url('https://thumbs.gfycat.com/AgonizingEquatorialFrillneckedlizard-size_restricted.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   height: 90vh;
   height: calc(var(--vh, 1vh) * 90);
@@ -146,5 +158,9 @@ export default {
       }
     }
   }
+
+  // img {
+  //   display: block;
+  // }
 }
 </style>

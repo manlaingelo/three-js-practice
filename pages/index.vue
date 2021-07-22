@@ -1,29 +1,11 @@
 <template>
   <div class="pageIndex">
     <block-title />
-    <!-- <block-images-grid class="appIndex__imagesGrid" /> -->
     <div class="pageIndex__image">
-      <!-- <component
-        :is="this.$mq === 'desktop' ? 'webgl-image' : 'native-image'"
-        :sources="[
-          {
-            type: 'image/webp',
-            srcset:
-              '/images/webp/400w.webp 400w, /images/webp/800w.webp 800w, /images/webp/1200w.webp 1200w'
-          },
-          {
-            type: 'image/jpeg',
-            srcset:
-              '/images/jpeg/400w.jpg 400w, /images/jpeg/800w.jpg 800w, /images/jpeg/1200w.jpg 1200w',
-            sizes: '(max-width: 400px) 400px, (max-width: 769px) 769px'
-          }
-        ]"
-        :src="'/images/webp/1200w.webp'"
-        :aspectRatio="1200 / 1664"
-      /> -->
-
       <webgl-image
-        :src="'/images/webp/1200w.webp'"
+        :src="
+          'https://scontent.fuln1-2.fna.fbcdn.net/v/t1.6435-9/192296473_355952709197608_4215630893270069519_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=sSKnpnc7D4IAX9ukgsx&_nc_ht=scontent.fuln1-2.fna&oh=0098d14861d7fedd3a80f0facc83f9c4&oe=60FEAA8A'
+        "
         :aspectRatio="1200 / 1664"
       />
     </div>
