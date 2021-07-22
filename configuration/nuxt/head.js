@@ -3,24 +3,24 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'nuxt-three',
+    title: 'Sue lee <3',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Nuxt.js - Three.js starter'
+        content: 'Хөөрхөн сэргэлэнд зориулав.'
       },
       {
         hid: `og:title`,
         property: 'og:title',
-        content: 'nuxt-three'
+        content: 'Half year has passed..'
       },
       {
         hid: `og:description`,
         property: 'og:description',
-        content: 'Web app starter built on Nuxt.js and Three.js'
+        content: 'Хөөрхөн сэргэлэнд зориулав.'
       },
       {
         hid: 'og:type',
@@ -30,7 +30,7 @@ export default {
       {
         hid: `og:url`,
         property: 'og:url',
-        content: 'https://github.com/clementroche/nuxt-three'
+        content: 'https://huurhun-sergelend.netlify.app/'
       },
       {
         hid: `og:image`,
