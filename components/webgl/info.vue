@@ -1,10 +1,10 @@
 <template>
   <div v-if="rendererInfo" class="rendererInfo">
-    <div>calls: {{ rendererInfo.render.calls }}</div>
+    <!-- <div>calls: {{ rendererInfo.render.calls }}</div>
     <div>triangles: {{ rendererInfo.render.triangles }}</div>
     <div>geometries: {{ rendererInfo.memory.geometries }}</div>
     <div>textures: {{ rendererInfo.memory.textures }}</div>
-    <div>programs: {{ rendererInfo.programs.length }}</div>
+    <div>programs: {{ rendererInfo.programs.length }}</div> -->
   </div>
 </template>
 
@@ -26,13 +26,13 @@ export default {
 
 <style lang="scss">
 .rendererInfo {
-  background: #000;
-  bottom: 0;
-  color: #fff;
-  left: 0;
-  opacity: 0.9;
-  padding: 8px;
-  position: fixed;
-  z-index: 10000;
+  // background: #000;
+  // bottom: 0;
+  // color: #fff;
+  // left: 0;
+  // opacity: 0.9;
+  // padding: 8px;
+  // position: fixed;
+  // z-index: 10000;
 }
 </style>

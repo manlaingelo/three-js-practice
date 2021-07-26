@@ -3,23 +3,19 @@
     <!-- <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">Happy half year</h1> -->
     <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">
       July 30
-      <!-- <img
-        src=""
-        alt="heart threejs"
-      /> -->
     </h1>
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
-import gsap from '@/libs/gsap-bonus'
+// import gsap from '@/libs/gsap-bonus'
 import useWebGL from '@/hooks/use-webgl'
 // import useRAF from '@/hooks/use-raf'
 import frame from '@/mixins/frame'
 
 const SCALE_OUT = 1
-const SCALE_IN = 1.5
+// const SCALE_IN = 1.5
 
 export default {
   mixins: [frame],
@@ -37,16 +33,15 @@ export default {
   },
   watch: {
     hover() {
-      const scale = gsap.utils.clamp(200, 500, this.$viewport.width * 0.2)
-      const scalar = this.hover ? scale * SCALE_IN : scale * SCALE_OUT
-
-      gsap.to(this.cube.scale, {
-        duration: 2,
-        ease: 'expo.out',
-        x: scalar,
-        y: scalar,
-        z: scalar
-      })
+      // const scale = gsap.utils.clamp(200, 500, this.$viewport.width * 0.2)
+      // const scalar = this.hover ? scale * SCALE_IN : scale * SCALE_OUT
+      // gsap.to(this.cube.scale, {
+      //   duration: 2,
+      //   ease: 'expo.out',
+      //   x: scalar,
+      //   y: scalar,
+      //   z: scalar
+      // })
     }
   },
   mounted() {
@@ -105,11 +100,11 @@ export default {
       const { raycaster } = useWebGL()
 
       const geometry = new THREE.DodecahedronBufferGeometry(0.5, 0)
-      const material = new THREE.MeshNormalMaterial()
+      const material = new THREE.MeshNormalMaterial({ color: 0xffffff })
       this.cube = new THREE.Mesh(geometry, material)
-      this.cube.scale.setScalar(
-        gsap.utils.clamp(200, 500, this.$viewport.width * 0.2)
-      )
+      // this.cube.scale.setScalar(
+      //   gsap.utils.clamp(0, 0, this.$viewport.width * 0.2)
+      // )
 
       const { DOMScene } = useWebGL()
       DOMScene.add(this.cube)
@@ -124,7 +119,7 @@ export default {
 .appTitle {
   align-items: center;
   // background-image: url('https://monophy.com/media/eJcat3soqbBWwpZvsL/monophy.gif');
-  background-image: url('https://thumbs.gfycat.com/AgonizingEquatorialFrillneckedlizard-size_restricted.gif');
+  // background-image: url('https://thumbs.gfycat.com/AgonizingEquatorialFrillneckedlizard-size_restricted.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -158,9 +153,5 @@ export default {
       }
     }
   }
-
-  // img {
-  //   display: block;
-  // }
 }
 </style>

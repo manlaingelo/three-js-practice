@@ -100,12 +100,20 @@ export default {
     { src: '~/plugins/directives.js', mode: 'client' },
     { src: '~/plugins/gsap.js', mode: 'client' }
   ],
+
   build: {
     extend(config, ctx) {
       config.plugins.push(new webpack.ProvidePlugin({ THREE: 'three' }))
       config.module.rules.push({
         test: /\.(glsl|vs|fs)$/,
         loader: 'raw-loader'
+      })
+      config.module.rules.push({
+        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]'
+        }
       })
     },
     babel: {
