@@ -1,7 +1,5 @@
 <template>
-  <div id="appScene">
-    <!-- <webgl-info /> -->
-  </div>
+  <div id="appScene"></div>
 </template>
 
 <script>
@@ -29,7 +27,6 @@ export default {
   left: 0;
   margin-top: 150px;
   pointer-events: none;
-  // pointer-events: none;
   position: fixed;
   top: 0;
   width: 100% !important;

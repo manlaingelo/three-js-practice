@@ -2,12 +2,7 @@
   <div class="pageIndex">
     <block-title />
     <div class="pageIndex__image">
-      <webgl-image
-        :src="
-          'https://scontent.fuln1-2.fna.fbcdn.net/v/t1.6435-9/192296473_355952709197608_4215630893270069519_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=sSKnpnc7D4IAX9ukgsx&_nc_ht=scontent.fuln1-2.fna&oh=0098d14861d7fedd3a80f0facc83f9c4&oe=60FEAA8A'
-        "
-        :aspectRatio="1200 / 1664"
-      />
+      <webgl-image :src="'/icarus.webp'" :aspectRatio="1200 / 1664" />
     </div>
   </div>
 </template>

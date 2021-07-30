@@ -2,7 +2,7 @@
   <div class="appTitle">
     <!-- <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">Happy half year</h1> -->
     <h1 v-kinesis="{ depth: 10 }" class="appTitle__title">
-      July 30
+      Love ya ❤️️
     </h1>
   </div>
 </template>
