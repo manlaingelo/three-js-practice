@@ -2,7 +2,7 @@
   <div class="pageIndex">
     <block-title />
     <div class="pageIndex__image">
-      <webgl-image :src="'/icarus.webp'" :aspectRatio="1200 / 1664" />
+      <webgl-image :src="'/jan31.webp'" :aspectRatio="1200 / 1664" />
     </div>
   </div>
 </template>
