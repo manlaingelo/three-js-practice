@@ -25,4 +25,4 @@ $ npm run generate
 
 ## Demo
 
-[See the demo](https://huurhun-sergelend.netlify.app/)
+[See the demo](https://nuxt-three.netlify.app/)
