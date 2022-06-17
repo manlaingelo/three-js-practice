@@ -1,4 +1,4 @@
-# learning from three js project code
+# three-dive
 
 [Cloned from this github](https://github.com/clementroche/nuxt-three)
 
